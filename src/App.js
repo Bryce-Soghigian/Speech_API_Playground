@@ -1,4 +1,4 @@
-import React from 'react';
+import React from '../speech-api-test/node_modules/@types/react';
 import SpeechInput from './Components/SpeechInput'
 import SpeechRecognition from './Components/SpeechRecognition';
 
