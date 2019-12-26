@@ -17,7 +17,7 @@ export default function SpeechRecognition() {
         <button onMouseDown={listen} onMouseUp={stop}>
           🎤
         </button>
-        {listening && <div>Go ahead I'm listening</div>}
+        {listening && <div>Hey bro speak</div>}
       </div>
     )
 }

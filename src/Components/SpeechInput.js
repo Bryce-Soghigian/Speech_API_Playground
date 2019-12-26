@@ -8,6 +8,7 @@ export default function SpeechInput() {
   return (
     <div>
       <textarea
+        placeholder="Type in here and the api will speak when you tell it to"
         value={value}
         onChange={event => setValue(event.target.value)}
       />
